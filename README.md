@@ -44,3 +44,21 @@ Expected Output:
 1 3 N
 5 1 E
 
+
+CODE EXPLANATION:
+
+Base    => RoverBase.cs : An abstract class which declares what a rover do.
+
+Impl    => Rover.cs : Implements RoverBase with given objects and fill methods according to business rules above.
+
+Models  => Plateau.cs : A Class to define limit of plateatu that rovers are discovering with respect to x and y coordinate.
+
+Models  => RoverPosition.cs : Another property getter, setter class to declare where a rover at a time with parameters x, y and Heading.
+
+Models  => Heading.cs : An enum to declare North, West, East, South as integer.
+
+Models  => Command.cs : Returns a static dictionary which includes command letters as key and running method of that letter as value.
+
+RoverOperator.cs => Transmits given command to a rover. 
+
+
