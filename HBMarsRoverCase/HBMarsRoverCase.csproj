@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\RoverBase.cs" />
+    <Compile Include="Impl\Rover.cs" />
+    <Compile Include="Models\Command.cs" />
+    <Compile Include="Models\Heading.cs" />
+    <Compile Include="Models\Plateau.cs" />
+    <Compile Include="Models\RoverPosition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoverOperator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
