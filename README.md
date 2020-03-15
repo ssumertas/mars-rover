@@ -1,4 +1,4 @@
-# mars-rove
+# mars-rover
 
 Case Details:
 
